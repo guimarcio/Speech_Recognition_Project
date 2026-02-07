@@ -1,0 +1,8 @@
+jupyter
+python_speech_features
+playsound
+hmmlearn
+scipy
+numpy
+matplotlib
+pickle
