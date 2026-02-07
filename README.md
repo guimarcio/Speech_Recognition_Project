@@ -1,5 +1,3 @@
-# Files to be updated.
-
 # 💬 Automatic Speech Recognition of Isolated Digits using Hidden Markov Models
 
 ## 📌 Overview
