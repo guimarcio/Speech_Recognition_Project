@@ -7,6 +7,21 @@ The system was trained and evaluated using a custom-recorded dataset and achieve
 
 I also made a video explaining the concepts and the project (video in portuguese): https://www.youtube.com/watch?v=-1re2LmgcIA
 
+## ▶️ How to Run
+
+1. Clone the repository:
+   git clone <[repo-link](https://github.com/guimarcio/Speech_Recognition_Project)>
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Open the Jupyter Notebook:
+   jupyter notebook
+
+4. Run the notebook file.
+
+5. Change the path in the script to access the dataset folder.
+
 ## 🎤 Dataset
 
 To build the dataset:
