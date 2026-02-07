@@ -53,7 +53,7 @@ This resulted in:
 
 * 50 test samples
 
-An example of all spoken 'nine' is shown below. In this case, all signals are overposed.
+An example of all spoken 'nove' (nine in English) is shown below. In this case, all signals are overposed.
 
 ![nine.png](/Images/nine.png)
 
@@ -81,7 +81,9 @@ Where:
 
 Each audio signal was segmented into frames using:
 
-* Hanning window
+* Hanning window (shown in the figure below)
+
+![window.png](/Images/window.png)
 
 * Window length: 10 ms
 
