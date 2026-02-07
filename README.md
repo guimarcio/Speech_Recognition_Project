@@ -53,6 +53,10 @@ This resulted in:
 
 * 50 test samples
 
+An example of all spoken 'nine' is shown below. In this case, all signals are overposed.
+
+![nine.png](/Images/nine.png)
+
 ## 🧠 Model Architecture
 
 ### 🔢 One HMM per Digit
