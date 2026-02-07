@@ -135,7 +135,23 @@ The classifier therefore performs maximum likelihood classification.
 
 * Accuracy: 98%
 
-The single error appears in the confusion matrix at row 2 and column 6. This indicates one instance of digit 2 being classified as digit 6. The high accuracy demonstrates the effectiveness of HMMs in modeling the temporal structure of speech signals in controlled environments.
+  ### Confusion Matrix
+
+| True \ Pred | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|-------------|---|---|---|---|---|---|---|---|---|---|
+| 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 2 | 0 | 0 | 4 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
+| 3 | 0 | 0 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 4 | 0 | 0 | 0 | 0 | 5 | 0 | 0 | 0 | 0 | 0 |
+| 5 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 0 | 0 | 0 |
+| 6 | 0 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 0 | 0 |
+| 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 0 |
+| 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 | 0 |
+| 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
+
+
+The single error appears in the confusion matrix at row 3 and column 7. This indicates one instance of digit 2 being classified as digit 6. The high accuracy demonstrates the effectiveness of HMMs in modeling the temporal structure of speech signals in controlled environments.
 
 ## 🔍 Discussion
 
